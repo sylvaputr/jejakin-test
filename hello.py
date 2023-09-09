@@ -6,7 +6,7 @@ options.add_experimental_option("detach", True)
 # driver = webdriver.Chrome()
 driver = webdriver.Chrome(options=options)
 
-driver.get("https://dev.jejak.travel/")
+driver.get("")
 
 button = driver.find_element(By.CLASS_NAME, "board-departure")
 button.click()
@@ -31,7 +31,7 @@ options.add_experimental_option("detach", True)
 
 driver = webdriver.Chrome(options=options)
 
-driver.get("https://dev.jejak.travel/")
+driver.get("")
 
 button = driver.find_element(By.CLASS_NAME, "board-departure")
 button.click()
